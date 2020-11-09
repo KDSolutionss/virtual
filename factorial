@@ -1,0 +1,9 @@
+set 50 3
+set 51 1
+set 52 1
+biggernumber 50 51 50
+multiply 50 52 52
+substruct 50 51 50
+jnz 50 9
+output 52
+exit
