@@ -1,0 +1,12 @@
+set 50 100
+set 51 40
+biggernumber 50 51 53
+lessnumber 52 51 54
+biggernumber 53 54 50
+lessnumber 53 54 51
+substruct 50 51 52
+output 52
+jz 52 29
+lessnumber 50 52 50
+jmp 6
+exit
